@@ -127,14 +127,6 @@ Para adicionar uma nova ferramenta:
 4. Adicione a ferramenta em `get_all_tools()`
 5. Adicione a descrição em `src/prompts/tool_prompts.json`
 
-### Testando Ferramentas
-
-Execute o script de teste para validar a consulta ao PNCP:
-
-```bash
-python test_extraction.py
-```
-
 ## 📝 Personalizando Prompts
 
 Os prompts são configurados em arquivos JSON no diretório `src/prompts/`:
@@ -245,21 +237,7 @@ Quando você executa o agente, os logs mostram:
 ====================================================================================================
 ```
 
-### Documentação Completa
-
-Para mais informações sobre como interpretar os logs, consulte [LOGS_DO_AGENTE.md](LOGS_DO_AGENTE.md).
-
-### Testando com Logs
-
-Execute o script de demonstração:
-
-```bash
-python test_agent_logs.py
-```
-
-Este script demonstra o sistema de logs com consultas reais ao agente.
-
-## �📦 Dependências Principais
+## 📦 Dependências Principais
 
 - **streamlit**: Interface web
 - **langchain**: Framework para agentes de IA
@@ -326,9 +304,28 @@ OPENAI_API_KEY=sk-...
 - [Lei 14.133/2021 - Nova Lei de Licitações](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14133.htm)
 - [Documentação API PNCP](https://pncp.gov.br/api/swagger-ui/index.html)
 
+## Uso em Outros Projetos
+
+Este projeto está disponível para uso, modificação e distribuição, desde que seja mantida a **atribuição de autoria**.
+
+Ao utilizar este código em seus projetos, por favor:
+- ✅ Mantenha referência ao projeto original
+- ✅ Cite o autor: **Marcos Avner Pimenta de Lima**
+- ✅ Inclua um link para este repositório
+
+Exemplo de atribuição:
+```
+Baseado no projeto ContrataAI por Marcos Lima
+https://github.com/marcosmapl/contrataai
+```
+
 ## 📞 Suporte
 
-Para problemas ou dúvidas, abra uma [issue](https://github.com/seu-usuario/contrataai/issues) no GitHub.
+Para problemas, dúvidas ou sugestões:
+
+- 📧 **Email**: [lima.d.marcos@gmail.com](mailto:lima.d.marcos@gmail.com)
+- 💼 **LinkedIn**: [linkedin.com/in/marcosmapl](https://www.linkedin.com/in/marcosmapl)
+- 🐛 **Issues**: Abra uma [issue no GitHub](https://github.com/marcosmapl/contrataai/issues)
 
 ---
 
