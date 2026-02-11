@@ -211,3 +211,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Executable files and installers
+*.exe
+*.msi
+*.dmg
+*.pkg
